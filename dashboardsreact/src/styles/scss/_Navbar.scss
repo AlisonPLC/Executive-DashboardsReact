@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100px;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  border-right: 1px $border solid;
+}
+.homeContainer {
+  margin-top: 230px;
+  max-width: 20px;
+  max-height: 20px;
+}
+.homeContainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.statusContainer {
+  margin-top: 20px;
+  max-width: 20px;
+  max-height: 20px;
+}
+.statusContainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.saveContainer {
+  margin-top: 20px;
+  max-width: 20px;
+  max-height: 20px;
+}
+.saveContainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.configContainer {
+  margin-top: 20px;
+  max-width: 20px;
+  max-height: 20px;
+}
+.configContainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.tourContainer {
+  margin-top: 240px;
+  max-width: 20px;
+  max-height: 20px;
+}
+.tourContainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
