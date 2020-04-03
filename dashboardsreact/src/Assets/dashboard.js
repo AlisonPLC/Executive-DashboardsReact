@@ -71,6 +71,88 @@ function Dashboard() {
           <img class="viewShare" src={ShareIcon} alt="Share.logo" />
         </div>
         {/* --- */}
+        <div class="listViewItem">
+          <div class="itemSquare">
+            <h5>View</h5>
+          </div>
+          <div class="itemDescription">
+            <h4>Booking Revenue</h4>
+            <h5>Created ashboard with shipment value and sales</h5>
+          </div>
+          <div class="date">
+            <h5>2/2/2018</h5>
+          </div>
+          <div class="ViewLogoContainer">
+            <img src={Sender} alt="Sender.logo" />
+          </div>
+          <h5 class="listUserName">T Ririka Sigh</h5>
+          <img class="viewDelete" src={DeleteIcon} alt="Delete_logo" />
+          <img class="viewEdit" src={EditIcon} alt="Edit_logo" />
+          <img class="viewShare" src={ShareIcon} alt="Share.logo" />
+        </div>
+        {/* --- */}
+        <div class="listViewItem listSelected">
+          <div class="itemSquare squareSelected">
+            <h5 className="purpleFont">View</h5>
+          </div>
+          <div class="itemDescription">
+            <h4 className="purpleFont">Booking Revenue</h4>
+            <h5 className="purpleFont">
+              Created ashboard with shipment value and sales
+            </h5>
+          </div>
+          <div class="date">
+            <h5>2/2/2018</h5>
+          </div>
+          <div class="ViewLogoContainer">
+            <img src={Sender} alt="Sender.logo" />
+          </div>
+          <h5 class="listUserName">T Ririka Sigh</h5>
+          <img class="viewDelete" src={DeleteIcon} alt="Delete_logo" />
+          <img class="viewEdit" src={EditIcon} alt="Edit_logo" />
+          <img class="viewShare" src={ShareIcon} alt="Share.logo" />
+        </div>
+        {/* --- */}
+        <div class="listViewItem">
+          <div class="itemSquare">
+            <h5>View</h5>
+          </div>
+          <div class="itemDescription">
+            <h4>Booking Revenue</h4>
+            <h5>Created ashboard with shipment value and sales</h5>
+          </div>
+          <div class="date">
+            <h5>2/2/2018</h5>
+          </div>
+          <div class="ViewLogoContainer">
+            <img src={Sender} alt="Sender.logo" />
+          </div>
+          <h5 class="listUserName">T Ririka Sigh</h5>
+          <img class="viewDelete" src={DeleteIcon} alt="Delete_logo" />
+          <img class="viewEdit" src={EditIcon} alt="Edit_logo" />
+          <img class="viewShare" src={ShareIcon} alt="Share.logo" />
+        </div>
+        {/* --- */}
+        <div class="listViewItem">
+          <div class="itemSquare">
+            <h5>View</h5>
+          </div>
+          <div class="itemDescription">
+            <h4>Booking Revenue</h4>
+            <h5>Created ashboard with shipment value and sales</h5>
+          </div>
+          <div class="date">
+            <h5>2/2/2018</h5>
+          </div>
+          <div class="ViewLogoContainer">
+            <img src={Sender} alt="Sender.logo" />
+          </div>
+          <h5 class="listUserName">T Ririka Sigh</h5>
+          <img class="viewDelete" src={DeleteIcon} alt="Delete_logo" />
+          <img class="viewEdit" src={EditIcon} alt="Edit_logo" />
+          <img class="viewShare" src={ShareIcon} alt="Share.logo" />
+        </div>
+        {/* --- */}
       </div>
     </div>
   );

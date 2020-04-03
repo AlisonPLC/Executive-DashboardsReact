@@ -41,19 +41,22 @@
   margin-right: 15px;
 }
 .selectDashboardPannel {
-  max-height: 40px;
-  max-width: 240px;
+  height: 40px;
+  width: 240px;
   border: none;
   margin-right: 50px;
+  margin-bottom: 10px;
 }
 .gridDisplayContainer {
   max-width: 22px;
   max-height: 22px;
   margin-right: 25px;
+  margin-bottom: 10px;
 }
 .barsDisplayContainer {
   max-width: 25px;
   max-height: 22px;
+  margin-bottom: 10px;
 }
 
 .dashboardBetween {
@@ -76,17 +79,95 @@
   margin-left: 160px;
 }
 .dCreated {
-  margin-left: 240px;
+  margin-left: 180px;
 }
 .dWho {
   margin-left: 140px;
 }
 .dAction {
-  margin-left: 140px;
+  margin-left: 100px;
 }
 .listView {
   margin-left: 70px;
 }
 .listViewItem {
   display: flex;
+  width: 1180px;
+  height: 100px;
+  border: 1px #dee2ee solid;
+  margin-bottom: 10px;
+}
+
+.itemSquare {
+  margin-left: 34px;
+  margin-top: 30px;
+  width: 95px;
+  height: 38px;
+  border: 1px #686868 solid;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.itemSquare h5 {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #686868;
+}
+
+.itemDescription {
+  width: 208px;
+  height: 37px;
+}
+.date h5 {
+  font-size: 15px;
+  color: #707070;
+  margin-left: 180px;
+  margin-top: 40px;
+}
+
+.ViewLogoContainer {
+  max-width: 35px;
+  max-height: 35px;
+}
+.ViewLogoContainer img {
+  height: 100%;
+  width: 100%;
+  margin-left: 180px;
+  margin-top: 30px;
+}
+.listUserName {
+  margin-left: 180px;
+  margin-top: 40px;
+}
+.viewDelete {
+  margin-left: 120px;
+  width: 20px;
+  height: 20px;
+  margin-top: 40px;
+}
+.viewEdit {
+  margin-left: 20px;
+  width: 20px;
+  height: 20px;
+  margin-top: 40px;
+}
+.viewShare {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+  margin-top: 40px;
+}
+.listSelected {
+  border: 1px #8954ba solid;
+}
+.squareSelected {
+  border: 1px #8954ba solid;
+}
+.squareSelected .purpleFont {
+  color: #8954ba;
+}
+
+.purpleFont {
+  color: #8954ba;
 }

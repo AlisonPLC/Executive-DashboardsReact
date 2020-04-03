@@ -4,12 +4,13 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  margin-bottom: 1px $border solid;
+  margin-bottom: 2px #a5acc9 solid;
   align-items: center;
 }
 
-.logoContainer {
-  margin-left: 3%;
+.logoCotainer {
+  margin-left: 2%;
+  margin-bottom: 10px;
   max-width: 30px;
   max-height: 30px;
 }
@@ -18,7 +19,7 @@
   height: 100%;
 }
 .search {
-  margin-left: 63%;
+  margin-left: 64%;
   display: flex;
   flex-direction: row;
   margin-right: 3%;
@@ -34,9 +35,13 @@
   max-height: 21px;
 }
 .headerBar {
-  background-color: $border;
-  max-height: 100%;
-  width: 1px;
+  background-color: #a5acc9;
+
+  height: 40px;
+  width: 2px;
+}
+.second {
+  margin-left: 40px;
 }
 .bellContainer {
   max-width: 1.5%;

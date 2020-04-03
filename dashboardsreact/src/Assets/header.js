@@ -26,7 +26,7 @@ class Header extends React.Component {
         <div className="bellContainer">
           <img src={BellIcon} alt="Notifications" />
         </div>
-        <div className="headerBar" />
+        <div className="headerBar second" />
         <div className="userPicContainer">
           <img src={userPic} alt="User Pic" />
         </div>
