@@ -1,15 +1,20 @@
 import React from "react";
 
+import * as Logo from "./Images/Logo.png";
+import * as SearchIcon from "./Images/Search-Icon.png";
+import * as BellIcon from "./Images/BellIcon.png";
+import * as userPic from "./Images/User-Pic.png";
+
 class Header extends React.Component {
   render() {
     return (
       <div className="header">
         <div className="logoCotainer">
-          <img src="null" alt="Logo" />
+          <img src={Logo} alt="Logo" />
         </div>
         <div className="search">
           <div className="searchCotainer">
-            <img src="null" alt="Search Icon" />
+            <img src={SearchIcon} alt="Search Icon" />
           </div>
           <input
             type="text"
@@ -19,11 +24,11 @@ class Header extends React.Component {
         </div>
         <div className="headerBar" />
         <div className="bellContainer">
-          <img src="null" alt="Notifications" />
+          <img src={BellIcon} alt="Notifications" />
         </div>
         <div className="headerBar" />
         <div className="userPicContainer">
-          <img src="null" alt="User Pic" />
+          <img src={userPic} alt="User Pic" />
         </div>
       </div>
     );

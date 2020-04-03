@@ -1,0 +1,92 @@
+.dashboard {
+  background-color: #f5f6fa;
+  width: 100%;
+  height: 100%;
+}
+.dashboardHeader {
+  margin-left: 70px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.backButtonAlign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 500px;
+}
+.backButtonAlign img {
+  align-self: flex-start;
+  max-width: 55px;
+  max-height: 15px;
+}
+.dashboardMargin {
+  margin-top: 20px;
+}
+.executiveDashboard {
+  display: flex;
+  text-align: center;
+}
+.executiveDashboard h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: $purpleFont;
+}
+.executiveDashboard .nonbbold {
+  font-weight: normal;
+}
+.selectDashboard {
+  font-size: 14px;
+  margin-right: 15px;
+}
+.selectDashboardPannel {
+  max-height: 40px;
+  max-width: 240px;
+  border: none;
+  margin-right: 50px;
+}
+.gridDisplayContainer {
+  max-width: 22px;
+  max-height: 22px;
+  margin-right: 25px;
+}
+.barsDisplayContainer {
+  max-width: 25px;
+  max-height: 22px;
+}
+
+.dashboardBetween {
+  display: flex;
+  flex-direction: row;
+  margin-left: 70px;
+}
+.headerItem {
+  display: flex;
+  align-items: center;
+}
+.headerItem img {
+  max-width: 8px;
+  width: 100%;
+  height: 100%;
+  max-height: 6px;
+  margin-right: 50px;
+}
+.dName {
+  margin-left: 160px;
+}
+.dCreated {
+  margin-left: 240px;
+}
+.dWho {
+  margin-left: 140px;
+}
+.dAction {
+  margin-left: 140px;
+}
+.listView {
+  margin-left: 70px;
+}
+.listViewItem {
+  display: flex;
+}
